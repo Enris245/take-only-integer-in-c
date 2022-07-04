@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+int getint();
+
+int x;
+printf("making a program if adding int only");
+x = getint();
+printf("the number you have entered is %d",x);
+return 0;
+}
+
+int getint()
+{
+int cha , num = 0;
+do
+{
+cha = getchar();
+if (cha>=47 && cha<=58)
+{
+printf("%c",cha);
+num = num*10 + (cha - 48);
+}
+if(cha ==13)
+break;
+}while (1);
+return (num);
+
+}
