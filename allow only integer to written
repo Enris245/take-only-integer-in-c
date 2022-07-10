@@ -3,9 +3,9 @@
 
 int main()
 {
-    
-int getint();
 
+int getint();
+{
 int x;
 printf("making a program if adding int only");
 x = getint();
@@ -26,7 +26,8 @@ num = num*10 + (cha - 48);
 }
 if(cha ==13)
 break;
-}while (1);
+}
+while (1);
 return (num);
 
 }
